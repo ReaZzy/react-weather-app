@@ -8,3 +8,7 @@ const instance = axios.create({
 export const getWeatherByCityAPI = (city) =>{
     return instance.get(`weather?q=${city}&appid=${APIKey}&lang=ru`).then(res=>res.data)
 }
+export const getWeatherGeoAPI = (lat, lon) =>{
+    return instance.get(`weather?lat=${lat}&lon=${lon}&appid=${APIKey}&lang=ru`).then(res=>res.data)
+}
+

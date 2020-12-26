@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2a9462-aeaa-42f1-8e71-108fafcdaf7a" name="Default Changelist" comment="" />
+    <list default="true" id="ab2a9462-aeaa-42f1-8e71-108fafcdaf7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/dal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/dal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/weatherReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/weatherReducer.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +83,8 @@
       <workItem from="1608915602659" duration="3349000" />
       <workItem from="1608924024899" duration="4093000" />
       <workItem from="1608977182633" duration="8494000" />
-      <workItem from="1608992448028" duration="1170000" />
+      <workItem from="1608992448028" duration="1402000" />
+      <workItem from="1608996531791" duration="1469000" />
     </task>
     <servers />
   </component>

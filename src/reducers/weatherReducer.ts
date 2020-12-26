@@ -1,4 +1,4 @@
-import {getWeatherByCityAPI} from "../api/dal";
+import {getWeatherByCityAPI, getWeatherGeoAPI} from "../api/dal";
 
 let initialState = {
     cityInfo:{},
@@ -61,6 +61,11 @@ export const getWeatherByCity = (city:any) => (dispatch:any) => {
     }, ()=>{
         dispatch(setLoading(false))
         dispatch(setNotFoundError(true))})
+}
 
-
+export const getWeatherByGeo =(leo:number, lat:number) => (dispatch:any) => {
+    dispatch(setLoading(true))
+    getWeatherGeoAPI(lat, leo).then(response=> {
+        console.log(1)
+    })
 }
