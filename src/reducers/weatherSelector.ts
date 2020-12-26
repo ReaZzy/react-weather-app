@@ -14,3 +14,6 @@ export const getCurrentCity = (state:any) =>{
 export const getLoading = (state:any) =>{
     return state.weather.isLoading
 }
+export const getCurrentLanguage = (state:any) =>{
+    return state.weather.currentLanguage
+}

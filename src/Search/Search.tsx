@@ -1,13 +1,15 @@
 import {Field, Form, Formik} from "formik";
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {useDispatch} from 'react-redux'
+import {useDispatch, useSelector} from 'react-redux'
 import {ImSearch} from "react-icons/im";
-import {getWeatherByCity, setCurrentCity} from "../reducers/weatherReducer";
+import {getWeatherByCity} from "../reducers/weatherReducer";
+import {getCurrentLanguage} from "../reducers/weatherSelector";
 export const Search:React.FC<{}> = React.memo(() =>{
     type initialValuesType= {
         search:string
     }
+    const currentLanguage = useSelector(getCurrentLanguage)
     let initialValues:initialValuesType = {search: ''}
     function validateSearch(value:initialValuesType) {
         let error;
@@ -22,8 +24,7 @@ export const Search:React.FC<{}> = React.memo(() =>{
     const dispatch = useDispatch()
 
     const onSubmit = async (values:initialValuesType, actions:any) =>{
-        await dispatch(getWeatherByCity(values.search))
-        dispatch(setCurrentCity(values.search))
+        await dispatch(getWeatherByCity(values.search, currentLanguage))
         actions.resetForm({
             values: {search:''},
         });

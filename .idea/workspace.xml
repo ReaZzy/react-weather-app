@@ -14,8 +14,11 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeatherCard/WeatherCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherCard/WeatherCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/dal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/dal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/weatherReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/weatherReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/weatherSelector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/weatherSelector.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -84,7 +87,7 @@
       <workItem from="1608924024899" duration="4093000" />
       <workItem from="1608977182633" duration="8494000" />
       <workItem from="1608992448028" duration="1402000" />
-      <workItem from="1608996531791" duration="1469000" />
+      <workItem from="1608996531791" duration="8070000" />
     </task>
     <servers />
   </component>
@@ -116,22 +119,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608911559093" />
-    <state width="1899" height="258" key="GridCell.Tab.0.bottom" timestamp="1608985354128">
+    <state width="1899" height="258" key="GridCell.Tab.0.bottom" timestamp="1609004911381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608985354128" />
-    <state width="1899" height="258" key="GridCell.Tab.0.center" timestamp="1608985354128">
+    <state width="1899" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609004911381" />
+    <state width="1899" height="258" key="GridCell.Tab.0.center" timestamp="1609004911381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608985354128" />
-    <state width="1899" height="258" key="GridCell.Tab.0.left" timestamp="1608985354128">
+    <state width="1899" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609004911381" />
+    <state width="1899" height="258" key="GridCell.Tab.0.left" timestamp="1609004911381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608985354128" />
-    <state width="1899" height="258" key="GridCell.Tab.0.right" timestamp="1608985354128">
+    <state width="1899" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609004911381" />
+    <state width="1899" height="258" key="GridCell.Tab.0.right" timestamp="1609004911381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608985354128" />
+    <state width="1899" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609004911381" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608915111271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
