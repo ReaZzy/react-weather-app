@@ -40,7 +40,7 @@ export const Search:React.FC<{}> = React.memo(() =>{
                 }}>
                    <Col >
                        <Row>
-                           <Field name={"search"} validate={validateSearch} component={"input"} maxLength={20} style={
+                           <Field name={"search"} type={"search"} validate={validateSearch} component={"input"} maxLength={20} style={
                                {
                                    marginLeft:"10px",
                                    float: "left",
