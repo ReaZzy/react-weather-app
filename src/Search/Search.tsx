@@ -3,7 +3,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {useDispatch, useSelector} from 'react-redux'
 import {ImSearch} from "react-icons/im";
-import {getWeatherByCity} from "../reducers/weatherReducer";
+import {getWeatherByCity, setCurrentCity} from "../reducers/weatherReducer";
 import {getCurrentLanguage} from "../reducers/weatherSelector";
 export const Search:React.FC<{}> = React.memo(() =>{
     type initialValuesType= {
@@ -25,6 +25,7 @@ export const Search:React.FC<{}> = React.memo(() =>{
 
     const onSubmit = async (values:initialValuesType, actions:any) =>{
         await dispatch(getWeatherByCity(values.search, currentLanguage))
+        dispatch(setCurrentCity(values.search))
         actions.resetForm({
             values: {search:''},
         });
